@@ -1,9 +1,55 @@
-/* Add styling for your page here */
-
-.App {
-
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* styling */
+
+.App {
+    padding: 3rem;
+}
+
+
+
 .BakeryItem {
-  
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.BakeryItems {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.Cart {
+    width: 25vw;
+    padding: 2rem;
+    background-color:rgb(237, 218, 193);
+    border-radius: 5px;
+}
+
+.SectionsFlex {
+    display: flex;
+    padding-top: 2rem;
 }
