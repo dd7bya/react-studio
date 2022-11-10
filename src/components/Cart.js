@@ -5,10 +5,10 @@ export default function Cart(props) {
         );
     }
     
-    let price = 0.0
+    let price = 0
 
     const addPrice = (i) => { //i is a bakery item
-        price = parseFloat(price) + parseFloat(i.price);
+        price = price + i.price;
     }
 
     const cartData= props.cartData;
