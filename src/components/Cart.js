@@ -8,7 +8,7 @@ export default function Cart(props) {
     let price = 0
 
     const addPrice = (i) => { //i is a bakery item
-        price = price + i.price;
+        price = price + toFixed(i.price);
     }
 
     const cartData= props.cartData;
